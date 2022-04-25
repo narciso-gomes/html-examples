@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  background: purple;
+  animation-name: percent-animation;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: 3;
+}
+
+@keyframes basic-animation {
+  from {
+    background-color: purple;
+  }
+  to {
+    background-color: yellow;
+  }
+}
+
+@keyframes percent-animation {
+  0% {
+    background-color: purple;
+    width: 500px;
+  }
+  50% {
+    background-color: yellow;
+    width: 250px;
+  }
+  100% {
+    background-color: red;
+    width: 125px;
+  }
+}
