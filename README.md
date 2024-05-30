@@ -2,6 +2,8 @@
 
 ## CSS Animations
 ### Fade in
+[screen-capture.webm](https://github.com/narciso-gomes/html-examples/assets/47224350/3fd89c2b-2b15-4bb5-8799-fc7151c63016)
+
 ### My tests
 ### Simple Animation
 ## CSS Texts
